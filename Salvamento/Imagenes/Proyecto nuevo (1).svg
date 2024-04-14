@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146 103" width="146" height="103">
+	<title>Proyecto nuevo</title>
+	<defs>
+		<image  width="146" height="47" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJIAAAAvBAMAAAD6AY4WAAAAAXNSR0IB2cksfwAAAA9QTFRFAAAA/////f7+/f3+/v7/XAQzvAAAAAV0Uk5TAP////8c0CZSAAABLUlEQVR4nO2V7RHDIAiGtRPoKt1/hc6inSBNIiovxY9r8yM/5K69qPCAIGrNVWIXaZFuS7Lu+NpimnB8Oew/zwaeLyYLT99DEhvvGlOkYDQSDHGUSDQ1JmEQ76+t5ygTydd5mQk0VUjZMSNRmpAkJTZJ+85VUh6QHuS9LKLjg6SkKYDeYcpC5aTqoU9ix8OfqXCSVB00SCQRAhSL2QEjtUtn+IpGOic2C6R26eTJ5qRkavP/j6RQ8pJ5na7LFi0SxYAktVcuJymT5yawANY8nu6FpcMTLkm1lNiidtgrQcRaSCLUMUmcwBGpJ3qiKNGMpKZzQsRd9Q9Jvko9UuhtnHqkXuW2o40PgNhOlIXtkLDh8u0knM2S2q9mVSmkJojkUAsjpSnStCzSIt2T9AHV2KApPogI9AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Legea" href="#img1" x="0" y="28"/>
+</svg>
