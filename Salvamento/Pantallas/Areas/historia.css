@@ -109,55 +109,56 @@ nav .menu li a {
     font-size: 30px;
 }
 
-.areas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
+section.contenido {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-.area {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 20px 0;
-    width: 80%;
-    max-width: 1200px;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.contenido-imagen {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.area img {
-    width: 30%;
+.contenido-imagen img {
+    width: 100%;
     height: auto;
-    border-right: 1px solid #e0e0e0;
+    border-radius: 10px;
 }
 
-.text-content {
-    padding: 20px;
-    flex: 1;
+.contenido-texto {
+    margin-top: 20px;
 }
 
-.text-content h4 {
-    color: #8b0000; /* Color del título pequeño */
-    margin: 0;
-    font-size: 1.2em;
+.contenido-texto h3 {
+    margin-top: 0;
+    color: blue;
+    font-size: 24px;
 }
 
-.text-content h2 {
-    margin: 10px 0;
-    font-size: 1.5em;
-    color: #333;
-}
-
-.text-content p {
-    color: #666;
-    font-size: 1em;
+.contenido-texto p {
     line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
+
+.contenido-texto .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contenido-texto .btn:hover {
+    background: #c0392b;
+}
+
 
 
 
