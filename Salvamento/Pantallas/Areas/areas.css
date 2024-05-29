@@ -109,31 +109,54 @@ nav .menu li a {
     font-size: 30px;
 }
 
-.texto{
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    margin-top: 60px;
-    width: 100%;
-    color: #000000;
-    font-weight: bold;
-}
-
-.columna1 {
+.areas {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
-    gap: 10px;
+    margin: 20px 0;
+    padding: 20px;
 }
 
-.texto div{
-    margin-top: 15px;
-    margin-left: 25px;
+.area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 1200px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.iconoPDF{
-    width: 40px;
-    background-color: red;
+.area img {
+    width: 30%;
+    height: auto;
+    border-right: 1px solid #e0e0e0;
+}
+
+.text-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.text-content h4 {
+    color: #8b0000; /* Color del título pequeño */
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.text-content h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.text-content p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
 }
 
 
@@ -346,18 +369,9 @@ footer h3{
     .imagen{
         padding-left: 10px;
     }
-
-    .fondo{
-        width: 400px;
-        height: 250px;
-    }
-
+    
     .logofooter{
         height: 80px;
-    }
-
-    .texto{
-        grid-template-columns: auto;
     }
 
 }

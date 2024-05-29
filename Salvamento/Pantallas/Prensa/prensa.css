@@ -109,37 +109,81 @@ nav .menu li a {
     font-size: 30px;
 }
 
-.texto{
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    margin-top: 60px;
-    width: 100%;
-    color: #000000;
-    font-weight: bold;
+.prensa {
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
-.columna1 {
-    display: flex;
-    align-items: center;
+.noticias {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-seccion {
+    text-align: center;
     margin-bottom: 20px;
-    gap: 10px;
 }
 
-.texto div{
-    margin-top: 15px;
-    margin-left: 25px;
+.titulo-seccion h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
 }
 
-.iconoPDF{
-    width: 40px;
-    background-color: red;
+.titulo-seccion p {
+    font-size: 18px;
+    color: #666;
 }
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenPrensa img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.noticias-lista {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.noticias-lista li {
+    margin-bottom: 10px;
+}
+
+.noticias-lista li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.noticias-lista li a:hover {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
 
 
 
 footer{
-    margin-top: 50px;
     width: 100%;
     color: white;
     background-color: #000000;
@@ -346,18 +390,9 @@ footer h3{
     .imagen{
         padding-left: 10px;
     }
-
-    .fondo{
-        width: 400px;
-        height: 250px;
-    }
-
+    
     .logofooter{
         height: 80px;
-    }
-
-    .texto{
-        grid-template-columns: auto;
     }
 
 }
