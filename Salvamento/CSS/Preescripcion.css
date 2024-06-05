@@ -29,92 +29,103 @@ body {
     font-size: 30px;
 }
 
-.texto{
-    display: grid;
-    grid-template-columns: auto auto;
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
     margin-top: 60px;
     width: 100%;
     color: #7a7a7a;
     font-weight: bold;
     margin-bottom: 50px;
+    padding: 0 20px;
 }
 
-.texto div{
-    margin-top: 15px;
-    margin-left: 25px;
+.texto .columna1, .texto .columna2 {
+    flex: 1;
+    min-width: 300px;
+    margin: 15px;
 }
 
-.fondo{
+.fondo {
     display: flex;
     justify-content: center;
-    width: 500px;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
     height: 300px;
     background-color: blue;
     border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
 }
 
-.fondo img{
-    width: auto;
-    height: auto;
+.fondo:hover {
+    background-color: black;
 }
 
-
-.columna2{
-    padding-top: 10px;
+.fondo img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.columna2 h3{
-    font-size: 20px;
-    color:black;
-}
-
-
-.botonFormulario{
+.botonFormulario, .botonBaixa {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 50px;
     background-color: blue;
     border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
 }
 
-.botonFormulario:hover{
-    background-color: #000000;
+.botonFormulario:hover, .botonBaixa:hover {
+    background-color: black;
+    transform: translateY(-2px);
 }
 
-.botonFormulario img{
+.botonFormulario img, .botonBaixa img {
     width: 20px;
     height: auto;
-    margin-top: 2px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
-.botonFormulario a{
+.botonFormulario a, .botonBaixa a {
     color: white;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-.botonBaixa{
-    display: flex;
-    align-items: center;
-    width: 140px;
-    height: 50px;
-    background-color: blue;
-    border-radius: 25px;
-    padding-left: 15px;
+.botonBaixa {
+    max-width: 140px;
 }
 
-.botonBaixa:hover{
-    background-color: #000000;
+@media (max-width: 768px) {
+    .texto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fondo {
+        height: 200px;
+    }
+
+    .botonFormulario, .botonBaixa {
+        width: 80%;
+    }
 }
 
-.botonBaixa img{
-    width: 20px;
-    height: auto;
-    margin-top: 2px;
-    margin-right: 5px;
-}
+@media (max-width: 480px) {
+    h3 {
+        font-size: 1.2rem;
+    }
 
-.botonBaixa a{
-    color: white;
+    .botonFormulario, .botonBaixa {
+        width: 100%;
+    }
 }

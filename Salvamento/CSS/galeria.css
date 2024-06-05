@@ -29,78 +29,58 @@ body {
     font-size: 30px;
 }
 
-.galeria{
-    margin-bottom: 50px;
+
+.galeria {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
 }
 
-.galeria h3{
-    font-size: 2rem;
-    margin-left: 20px;
-    margin-top: 30px;
+.galeria h3 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+    color: #333;
 }
 
-.galeriaOrden{
+.galeriaOrden, .videoOrden {
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 100%;
-    color: #7a7a7a;
-    font-weight: bold;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
 
-.galeriaOrden > div{
+.galeriaOrden .columna, .videoOrden .columna {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
 }
 
-.galeriaOrden img{
-    width: 400px;
-    height: 350px;
-    border-radius: 25px;
-}
-
-.videoOrden{
-    display: grid;
-    grid-template-columns: auto auto auto;
+.galeriaOrden img, .videoOrden video {
     width: 100%;
-    color: #7a7a7a;
-    font-weight: bold;
-}
-
-.videoOrden > div{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-
-.videoOrden video{
-    width: 400px;
+    max-width: 400px;
     height: 350px;
-    border-radius: 25px;
-    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.galeriaOrden img:hover, .videoOrden video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
-@media (max-width: 1250px){
-    .galeriaOrden{
-        column-gap: 10px;
-        grid-template-columns: auto auto;
-    }
-
-    .videoOrden{
-        column-gap: 10px;
-        grid-template-columns: auto auto;
+@media (max-width: 1250px) {
+    .galeriaOrden, .videoOrden {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
-@media (max-width: 858px){
-    
-    .galeriaOrden{
-        grid-template-columns: auto;
-    }
-    .videoOrden{
-        grid-template-columns: auto;
+@media (max-width: 858px) {
+    .galeriaOrden, .videoOrden {
+        grid-template-columns: 1fr;
     }
 
+    .galeria h3, .videoOrden h3 {
+        font-size: 2rem;
+    }
 }

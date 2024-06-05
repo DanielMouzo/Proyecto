@@ -23,6 +23,9 @@
 .menu {
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    flex: 1;
+    justify-content: center;
 }
 
 .menu li {
@@ -92,6 +95,17 @@
     color: black;
 }
 
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right */
+}
+
+.social-icons a {
+    color: #fff;
+    margin-left: 10px;
+}
+
 @media (max-width: 1200px) {
     .checkbtn {
         display: block;
@@ -138,10 +152,6 @@
         left: 0;
     }
 
-    .menu li:hover ul {
-        display: none;
-    }
-
     .menu .submenu {
         display: none;
         flex-direction: column;
@@ -158,6 +168,15 @@
 
     .fas.fa-bars{
         color: black;
+    }
+
+    .social-icons {
+        margin-top: auto;
+        padding-bottom: 20px;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
     }
 }
 

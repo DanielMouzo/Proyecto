@@ -1,0 +1,63 @@
+#calendar {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    height: 600px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.fc .fc-toolbar {
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.fc .fc-toolbar-title {
+    color: #ffffff; 
+    font-size: 1.5em;
+}
+.fc .fc-button {
+    background-color: #1e90ff;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.fc .fc-button:hover {
+    background-color: #1c86ee;
+}
+
+.fc .fc-button {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.fc .fc-button:hover {
+    background-color: #000000;
+}
+
+.fc-daygrid-event {
+    background-color: #1e90ff;
+    border: none;
+    color: #ffffff;
+}
+
+.fc-daygrid-event:hover {
+    background-color: #1c86ee;
+}
+
+.fc-theme-dark .fc-button-primary {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.fc-theme-dark .fc-button-primary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}

@@ -51,6 +51,10 @@ body {
     margin-top: 20px;
 }
 
+.fila1 h2{
+    margin-bottom: 10px;
+}
+
 .fila2 {
     text-align: center;
     justify-self: center;
