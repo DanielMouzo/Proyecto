@@ -63,7 +63,7 @@ body {
 }
 
 .text-content h4 {
-    color: #8b0000; /* Color del título pequeño */
+    color: blue;
     margin: 0;
     font-size: 1.2em;
 }

@@ -1,22 +1,35 @@
+// Espera a que todo el contenido del DOM esté completamente cargado antes de ejecutar la función
 document.addEventListener('DOMContentLoaded', function() {
+    
+    // Obtiene el elemento del DOM con el id 'calendar'
     var calendarEl = document.getElementById('calendar');
+    
+    // Crea una nueva instancia del calendario de FullCalendar
     var calendar = new FullCalendar.Calendar(calendarEl, {
+        
+        // Establece la vista inicial del calendario en el mes completo
         initialView: 'dayGridMonth',
+        
+        // Configura el idioma del calendario a español
         locale: 'es',
+        
+        // Configura la barra de herramientas del encabezado del calendario
         headerToolbar: {
-            left: 'prev,next today',
-            center: 'title',
-            right: 'dayGridMonth,timeGridWeek,timeGridDay'
+            left: 'prev,next today',  
+            center: 'title',          
+            right: 'dayGridMonth,timeGridWeek,timeGridDay'  
         },
+        
+        // Define los eventos que se mostrarán en el calendario
         events: [
             {
-                title: 'Campeonato de España - Playa',
-                start: '2024-07-01',
-                end: '2024-07-03'
+                title: 'Campeonato de España - Playa',  
+                start: '2024-07-01',                    
+                end: '2024-07-03'                       
             },
             {
                 title: 'Campeonato Gallego - Piscina',
-                start: '2024-07-10'
+                start: '2024-07-10'                    
             },
             {
                 title: 'Campeonato de España - Piscina',
@@ -65,5 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         ]
     });
+    
+    // Renderiza el calendario en la página
     calendar.render();
 });
