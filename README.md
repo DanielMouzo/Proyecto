@@ -1,13 +1,15 @@
+<img src="https://github.com/DanielMouzo/Proyecto/assets/128789303/1574d779-af55-4cf5-98c3-d4ffb3dbbdfb">
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat-square">
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square">
 </p>
 
-<h1>Proyecto de Salvamento</h1>
-    <p>
-        Bienvenido al repositorio del proyecto de final de curso. Este proyecto consiste en el desarrollo de una página web de salvamento utilizando HTML, CSS y JavaScript. La finalidad de esta página es proporcionar información y recursos relacionados con el salvamento, así como facilitar el acceso a servicios y noticias relevantes.
-    </p>
+<h1 align="center">Proyecto de Salvamento</h1>
+
+<p align="center">
+    Bienvenido al repositorio del proyecto de final de curso. Este proyecto consiste en el desarrollo de una página web de salvamento utilizando HTML, CSS y JavaScript. La finalidad de esta página es proporcionar información y recursos relacionados con el salvamento, así como facilitar el acceso a servicios y noticias relevantes.
+</p>
 <h2>Tabla de Contenidos</h2>
     <ul>
         <li><a href="#características-del-proyecto">Características del Proyecto</a></li>
