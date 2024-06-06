@@ -77,5 +77,7 @@ section.contenido {
 }
 
 .contenido-texto .btn:hover {
-    background: #c0392b;
+    background: #ffffff;
+    color:black;
+    border: 1px solid black;
 }
