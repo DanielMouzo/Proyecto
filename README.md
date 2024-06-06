@@ -36,6 +36,8 @@
         <li>CSS3 para el diseño y la presentación visual.</li>
         <li>JavaScript para la interactividad y funcionalidad dinámica.</li>
     </ul>
+    
+![268942622-b25aaac9-5a6a-4f8c-930e-9cf08b662ffd](https://github.com/DanielMouzo/Proyecto/assets/128789303/b5a15190-f817-435d-bbad-119e33ab8a8b)
 
 <h2 id="como-clonar-el-repositorio">Cómo Clonar el Repositorio</h2>
     <p>A continuación, se describen los pasos para utilizar este repositorio:</p>
@@ -54,6 +56,10 @@
         <li>Envía los cambios a la rama principal (<code>git push origin feature/nueva-característica</code>).</li>
         <li>Abre un Pull Request.</li>
     </ul>
+    
+<h2>Estado Del Proyecto</h2>
+
+:construction: Proyecto en construcción :construction:
 
 <h2 id="autores">Autores ✒️</h2>
     <p>**Daniel Mouzo**</p>
