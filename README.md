@@ -5,6 +5,10 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square">
 </p>
 
+<p align="center">
+ <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+</p>
+
 <h1 align="center">Proyecto de Salvamento</h1>
 
 <p align="center">
